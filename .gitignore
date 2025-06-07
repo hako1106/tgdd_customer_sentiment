@@ -1,0 +1,38 @@
+# Ignore dữ liệu và mô hình
+data/
+models/
+fb_user/
+
+# Ignore output từ notebook
+*.ipynb_checkpoints
+
+# Ignore báo cáo tạm và file output
+reports/*.log
+reports/*.tmp
+reports/*.csv
+reports/*.tsv
+reports/*.xlsx
+
+# Ignore file hệ thống
+.DS_Store
+Thumbs.db
+
+# Ignore môi trường ảo (nếu có)
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Ignore file từ VSCode hoặc IDE khác
+.vscode/
+*.code-workspace
+
+# Ignore log file và tệp tạm
+*.log
+*.tmp
+*.bak
+
+# Ignore file đầu ra crawl tạm thời (nếu có)
+fb_user/*.json
+fb_user/*.html
+
